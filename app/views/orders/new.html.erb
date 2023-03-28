@@ -1,0 +1,10 @@
+<h1>new form</h1>
+
+<%= form_with model: @order do |form| %>
+    <%= form.label :name,"Name" %>
+    <%= form.text_field :name %>
+    <%= form.label :email,"Email" %>
+    <%= form.text_field :email %>
+    <%= form.submit %>
+    
+<% end %>
